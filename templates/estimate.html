@@ -23,48 +23,53 @@
     <h1>Estimation</h1>
     
     <form action="/estimate" method="post">
-        <label for="location">Location:</label>
-        <input type="text" id="location" name="location" required><br><br>
-
-        <label for="year">Year:</label>
-        <input type="number" id="year" name="year" required><br><br>
-
-        <label for="kilometers_driven">Kilometers Driven:</label>
-        <input type="number" id="kilometers_driven" name="kilometers_driven" required><br><br>
-
-        <label for="fuel_type">Fuel Type:</label>
-        <input type="text" id="fuel_type" name="fuel_type" required><br><br>
-
-        <label for="transmission">Transmission:</label>
-        <input type="text" id="transmission" name="transmission" required><br><br>
-
-        <label for="owner_type">Owner Type:</label>
-        <input type="text" id="owner_type" name="owner_type" required><br><br>
-
-        <label for="mileage">Mileage:</label>
-        <input type="number" id="mileage" name="mileage" required><br><br>
-
-        <label for="seats">Seats:</label>
-        <input type="number" id="seats" name="seats" required><br><br>
-
-        <label for="brand">Brand:</label>
+        <label for="brand">Marque de la voiture:</label>
         <input type="text" id="brand" name="brand" required><br><br>
 
-        <label for="model">Model:</label>
+        <label for="model">Nom du modèle:</label>
         <input type="text" id="model" name="model" required><br><br>
 
-        <label for="engine_numeric">Engine Numeric:</label>
-        <input type="number" id="engine_numeric" name="engine_numeric" required><br><br>
+        <label for="kilometers_driven">Kilomètrage:</label>
+        <input type="number" id="kilometers_driven" name="kilometers_driven" required><br><br>
 
-        <label for="power_numeric">Power Numeric:</label>
+        <label for="location">Lieu:</label>
+        <input type="text" id="location" name="location" required><br><br>
+
+        <label for="year">Année de fabrication:</label>
+        <input type="number" id="year" name="year" required><br><br>
+
+        <label for="fuel_type">Type du carburant:</label>
+        <input type="text" id="fuel_type" name="fuel_type" required><br><br>
+
+        <label for="owner_type">Nombre de propietaires:</label>
+        <input type="text" id="owner_type" name="owner_type" required><br><br>
+
+        <label for="power_numeric">Puissance :</label>
         <input type="number" id="power_numeric" name="power_numeric" required><br><br>
 
-        <label for="is_sold_new">Is Sold New:</label>
+        <label for="engine_numeric">Cylindre:</label>
+        <input type="number" id="engine_numeric" name="engine_numeric" required><br><br>
+
+        <label for="seats">Nombre de places:</label>
+        <input type="number" id="seats" name="seats" required><br><br>
+
+        <label for="transmission">Automatique ou Manuel:</label>
+        <input type="text" id="transmission" name="transmission" required><br><br>
+
+        <label for="mileage">Consommation:</label>
+        <input type="number" id="mileage" name="mileage" required><br><br>
+
+        <label for="is_sold_new">Est vendu neuf ?:</label>
         <input type="text" id="is_sold_new" name="is_sold_new" required><br><br>
         <div class="estimate-button-container">
-            <button type="submit">Estimate</button>
+            <button type="submit">Estimer le prix!</button>
         </div>
         
+        
+    </form>
+</body>
+</html>
+
         
     </form>
 </body>
